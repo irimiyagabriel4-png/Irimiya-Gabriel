@@ -1,0 +1,126 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Design a Screen Assignment</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f6f9;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+        }
+
+        /* Card container */
+        .card {
+            background: white;
+            padding: 25px;
+            margin: 20px;
+            border-radius: 10px;
+            width: 350px;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        /* Visual hierarchy */
+        h1 {
+            font-size: 28px; /* Largest */
+            margin-bottom: 10px;
+        }
+
+        label {
+            display: block;
+            margin-top: 10px;
+            font-size: 16px; /* Medium */
+        }
+
+        .helper {
+            font-size: 12px; /* Small */
+            color: #666;
+        }
+
+        input {
+            width: 100%;
+            padding: 8px;
+            margin-top: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        /* Primary button */
+        button {
+            margin-top: 15px;
+            width: 100%;
+            padding: 10px;
+            background-color: #3B82F6;
+            color: white;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #2563eb;
+        }
+
+        .section {
+            max-width: 600px;
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+    </style>
+</head>
+<body>
+
+    <!-- LOGIN SCREEN DESIGN -->
+    <div class="card">
+        <h1>Login</h1>
+
+        <label>Email</label>
+        <input type="email">
+        <div class="helper">Enter your email address</div>
+
+        <label>Password</label>
+        <input type="password">
+        <div class="helper">Must be at least 6 characters</div>
+
+        <button>Login</button>
+    </div>
+
+    <!-- ASSIGNMENT ANSWERS -->
+    <div class="section">
+        <h2>Assignment Answers</h2>
+
+        <p><strong>1. Which app screen did you design?</strong><br>
+        I designed a simple login screen for a mobile application.</p>
+
+        <p><strong>2. How did you apply visual hierarchy?</strong><br>
+        I made the title "Login" the largest text to draw attention first.
+        The labels such as "Email" and "Password" are medium-sized, while
+        helper text is smaller and lighter in color to avoid distraction.</p>
+
+        <p><strong>3. What primary color did you choose and where did you apply it?</strong><br>
+        I used blue (#3B82F6) as the primary color and applied it to the
+        "Login" button to make it stand out as the main action.</p>
+
+        <p><strong>4. Website Evaluation</strong><br>
+        I evaluated the YouTube website.<br><br>
+
+        <strong>Visual Hierarchy:</strong> The YouTube logo is large and placed at the top left, 
+        and the search bar is centered, making it easy to find and use.<br><br>
+
+        <strong>Consistency:</strong> The same style of buttons and icons (like, share, subscribe)
+        is used throughout the website, which makes the interface easy to understand.</p>
+
+    </div>
+
+</body>
+</html>
