@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My Recipe Book</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #fff8f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: #ff7043;
+            color: white;
+            padding: 20px;
+        }
+
+        h2 {
+            color: #ff7043;
+        }
+
+        p {
+            padding: 0 20px;
+        }
+
+        /* CLASS SELECTOR */
+        .recipe {
+            padding: 20px;
+            margin-bottom: 40px;
+        }
+
+        /* IMAGE STYLING */
+        img {
+            width: 300px;
+            border-radius: 10px;
+            display: block;
+            margin: 10px auto;
+        }
+
+        /* TABLE STYLING */
+        table {
+            width: 80%;
+            margin: 10px 0;
+            border-collapse: collapse;
+        }
+
+        table, th, td {
+            border: 1px solid #333;
+        }
+
+        th {
+            background-color: #ffccbc;
+        }
+
+        th, td {
+            padding: 8px;
+            text-align: left;
+        }
+
+        /* ID SELECTOR */
+        #toc {
+            background-color: #ffe0b2;
+            padding: 20px;
+        }
+
+        ul {
+            padding-left: 40px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #d84315;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>🍲 My Favorite Recipe Book 🍲</h1>
+
+    <!-- TABLE OF CONTENTS -->
+    <div id="toc">
+        <h2>📚 Table of Contents</h2>
+        <ul>
+            <li><a href="#jollof">Jollof Rice</a></li>
+            <li><a href="#pancakes">Pancakes</a></li>
+        </ul>
+    </div>
+
+    <!-- RECIPE 1 -->
+    <div class="recipe" id="jollof">
+        <h2>🍛 Jollof Rice</h2>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/Jollof_rice.jpg" alt="Jollof Rice">
+
+        <h3>Details</h3>
+        <ul>
+            <li>Prep Time: 20 minutes</li>
+            <li>Cooking Time: 40 minutes</li>
+            <li>Servings: 4 people</li>
+        </ul>
+
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <th>Ingredient</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>Rice</td>
+                <td>2 cups</td>
+            </tr>
+            <tr>
+                <td>Tomato paste</td>
+                <td>3 spoons</td>
+            </tr>
+            <tr>
+                <td>Onions</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Spices</td>
+                <td>To taste</td>
+            </tr>
+        </table>
+
+        <h3>Steps</h3>
+        <ol>
+            <li>Wash the rice thoroughly.</li>
+            <li>Fry onions and tomato paste in oil.</li>
+            <li>Add water and spices.</li>
+            <li>Add rice and cook until soft.</li>
+        </ol>
+
+        <p>Source: <a href="https://en.wikipedia.org/wiki/Jollof_rice" target="_blank">Wikipedia</a></p>
+    </div>
+
+    <!-- RECIPE 2 -->
+    <div class="recipe" id="pancakes">
+        <h2>🥞 Pancakes</h2>
+
+        <img src="https://upload.wikimedia.org/wikipedia/commons/2/2c/Stack_of_pancakes.jpg" alt="Pancakes">
+
+        <h3>Details</h3>
+        <ul>
+            <li>Prep Time: 10 minutes</li>
+            <li>Cooking Time: 15 minutes</li>
+            <li>Servings: 2 people</li>
+        </ul>
+
+        <h3>Ingredients</h3>
+        <table>
+            <tr>
+                <th>Ingredient</th>
+                <th>Quantity</th>
+            </tr>
+            <tr>
+                <td>Flour</td>
+                <td>1 cup</td>
+            </tr>
+            <tr>
+                <td>Milk</td>
+                <td>1 cup</td>
+            </tr>
+            <tr>
+                <td>Egg</td>
+                <td>1</td>
+            </tr>
+            <tr>
+                <td>Sugar</td>
+                <td>2 spoons</td>
+            </tr>
+        </table>
+
+        <h3>Steps</h3>
+        <ol>
+            <li>Mix all ingredients into a smooth batter.</li>
+            <li>Heat a pan and pour batter.</li>
+            <li>Flip when bubbles appear.</li>
+            <li>Serve hot with syrup or fruit.</li>
+        </ol>
+
+        <p>Source: <a href="https://en.wikipedia.org/wiki/Pancake" target="_blank">Wikipedia</a></p>
+    </div>
+
+</body>
+</html>
